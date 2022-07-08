@@ -9,13 +9,13 @@ pipeline {
         }
         stage('Test') { 
             steps { 
-            echo " start testing"
-            sh 'mvn clean package'
+            echo "start testing"
             
             }
         }
         stage('Deploy') { 
             steps {
+            echo "deployement started"
                 // 
             }
         }
